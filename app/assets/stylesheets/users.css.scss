@@ -10,3 +10,42 @@
     text-align:center;
     padding:0 auto;
 }
+
+.well.profile-description{
+    color:#fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+
+//sass nested css
+    h3 {
+        margin-top: 0;
+    }
+}
+
+
+.well.contact-info{
+    color:#ffffff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+
+    //sass nested css
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.col-md-3.text-center{
+ 
+     //sass nested css
+     img{
+    //make a circle icon instead
+    border-radius: 50%;
+    //add box shadow
+    //http://www.cssmatic.com/box-shadow
+    -webkit-box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    //add border
+    border:2px solid white;
+     }
+}
