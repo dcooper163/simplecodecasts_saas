@@ -16,6 +16,10 @@ class ProfilesController < ApplicationController
         end
     end
     
+    def edit
+        @user = User.find( params[:user_id] )
+        @profile = @user.edit_user_profile(profile_params)
+    end
     
     private 
         def profile_params
