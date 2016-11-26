@@ -50,6 +50,9 @@ gem 'figaro', '1.0.0'
 # Use paperclip for image upload - getting latest version
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
+#add backwards compatibility with auto-prefix of mozilla css styling
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

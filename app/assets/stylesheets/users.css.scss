@@ -49,3 +49,41 @@
     border:2px solid white;
      }
 }
+
+.col-sm-4.text-center{
+ 
+     //sass nested css
+     img{
+    //make a circle icon instead
+    border-radius: 50%;
+    //add box shadow
+    //http://www.cssmatic.com/box-shadow
+    -webkit-box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+    //add border
+    border:2px solid white;
+    width:104px;
+     }
+}
+
+
+.well.row{
+    color:#ffffff;
+    background-color:#337ab7;
+    border-color: #2e6da4;
+    
+    a {
+        color:#ffffff;
+    }
+}
+
+.well.row.white-bg{
+    color:#111;
+    background-color:#ffffff;
+    border-color: #ccc;
+    
+    a {
+        color:#111;
+    }
+}
