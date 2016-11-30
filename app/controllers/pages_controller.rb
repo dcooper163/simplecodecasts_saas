@@ -7,4 +7,24 @@ class PagesController < ApplicationController
     def about
         
     end
+    
+    def investments
+        
+    end
+    
+    
+    def banking
+        
+    end
+
+    
+    def insurance
+        
+    end
+
+    
+    def retirement
+        
+    end
+    
 end
